@@ -5,47 +5,47 @@ export default function Home() {
 
     return (
         <>
-            <NextSeo
-                title="Invirep - ИНВИРЕП"
-                description="Invirep - ИНВИРЕП"
-                canonical="https://www.invirep.uz/"
-                openGraph={{
-                    url: 'https://invirep.uz/',
-                    title: 'Invirep - ИНВИРЕП',
-                    description: 'Invirep - ИНВИРЕП',
-                    images: [
-                        {
-                            url: 'https://www.example.ie/og-image-01.jpg',
-                            width: 800,
-                            height: 600,
-                            alt: 'Og Image Alt',
-                            type: 'image/jpeg',
-                        },
-                        {
-                            url: 'https://www.example.ie/og-image-02.jpg',
-                            width: 900,
-                            height: 800,
-                            alt: 'Og Image Alt Second',
-                            type: 'image/jpeg',
-                        },
-                        { url: 'https://www.example.ie/og-image-03.jpg' },
-                        { url: 'https://www.example.ie/og-image-04.jpg' },
-                    ],
-                    siteName: 'SiteName',
-                }}
-                twitter={{
-                    handle: '@handle',
-                    site: '@site',
-                    cardType: 'summary_large_image',
-                }}
-            />
+            {/*<NextSeo*/}
+            {/*    title="Invirep - ИНВИРЕП"*/}
+            {/*    description="Invirep - ИНВИРЕП"*/}
+            {/*    canonical="https://www.invirep.uz/"*/}
+            {/*    openGraph={{*/}
+            {/*        url: 'https://invirep.uz/',*/}
+            {/*        title: 'Invirep - ИНВИРЕП',*/}
+            {/*        description: 'Invirep - ИНВИРЕП',*/}
+            {/*        images: [*/}
+            {/*            {*/}
+            {/*                url: 'https://www.example.ie/og-image-01.jpg',*/}
+            {/*                width: 800,*/}
+            {/*                height: 600,*/}
+            {/*                alt: 'Og Image Alt',*/}
+            {/*                type: 'image/jpeg',*/}
+            {/*            },*/}
+            {/*            {*/}
+            {/*                url: 'https://www.example.ie/og-image-02.jpg',*/}
+            {/*                width: 900,*/}
+            {/*                height: 800,*/}
+            {/*                alt: 'Og Image Alt Second',*/}
+            {/*                type: 'image/jpeg',*/}
+            {/*            },*/}
+            {/*            { url: 'https://www.example.ie/og-image-03.jpg' },*/}
+            {/*            { url: 'https://www.example.ie/og-image-04.jpg' },*/}
+            {/*        ],*/}
+            {/*        siteName: 'SiteName',*/}
+            {/*    }}*/}
+            {/*    twitter={{*/}
+            {/*        handle: '@handle',*/}
+            {/*        site: '@site',*/}
+            {/*        cardType: 'summary_large_image',*/}
+            {/*    }}*/}
+            {/*/>*/}
             <div className="xl:max-w-[1110px] my-0 mx-auto w-[90%]">
                 <div className="h-[80px] flex items-center justify-between">
                     <a href="#"><img
-                        className={"h-[50px]"}
+                        className={"h-[40px] md:h-[50px]"}
                         src="/INVIREP-logo.png" alt="invirep, ИНВИРЕП"
                     /></a>
-                    <h3 className="hidden md:block font-medium">Tel: +998 90 223 00 40</h3>
+                    <h3 className="text-[11px] md:text-[18px] md:block font-medium">Tel: +998 90 223 00 40</h3>
                 </div>
                 <div className="mt-[50px]">
                     <h2 className="font-semibold text-center text-4xl font-roboto">ИНВИРЕП</h2>
@@ -269,6 +269,22 @@ export default function Home() {
                             <br/>
                             Тел. : +998 90 223 00 40
                         </strong></div>
+                        <a href="https://www.instagram.com/springpharmaceutic/" className="flex gap-3 items-center">
+                            <img src="/Instagram-Logo.wine.svg" className="w-[30px] h-[30px]" alt="instagram"/>
+                            @springpharmaceutic
+                        </a>
+                        <a href="https://www.facebook.com/spring.pharm.3/" className="flex gap-3 items-center">
+                            <img src="/Facebook-f_Logo-Blue-Logo.wine.svg" className="w-[30px] h-[30px]" alt="instagram"/>
+                            Spring Pharm
+                        </a>
+                        <a href="https://t.me/SpringPharmaceutic" className="flex gap-3 items-center">
+                            <img src="/telegram-icon.png" className="w-[28px] h-[28px]" alt="instagram"/>
+                            Spring_Pharmaceutic
+                        </a>
+                        <a href="#" className="flex gap-3 items-center mb-3">
+                            <img src="/email-svgrepo-com.svg" className="w-[25px] h-[25px]" alt="instagram"/>
+                            spring_pharmaceutic@gmail.com
+                        </a>
                         <div className="mb-5 flex gap-3 flex flex-wrap">
                             <a href="/instruction_ru.docx" className="px-3 py-2 bg-green-500 text-white inline-flex items-center gap-2 rounded-lg text-[12px] md:text-[16px]">
                                 СКАЧАТЬ ИНСТРУКЦИЮ НА РУССКОМ ЯЗЫКЕ
