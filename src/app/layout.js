@@ -11,6 +11,7 @@ export const metadata = {
     description: 'Invirep - ИНВИРЕП',
     url: 'https://invirep.vercel.app',
     image: 'https://invirep.vercel.app/INVIREP-logo.png',
+    content: 'ИНВИРЕП',
 }
 
 export default function RootLayout({children}) {

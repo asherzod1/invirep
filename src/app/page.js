@@ -12,14 +12,17 @@ export default function Home() {
                         height={50}
                         width={100}
                         className={"block md:hidden"}
-                        src="/INVIREP-logo.webp" alt="invirep, ИНВИРЕП"
+                        src="/invirep-logo.webp"
+                        alt="инвиреп"
                         loading={"lazy"}
+
                     />
                         <img
                             width={150}
                             height={100}
                             className={"hidden md:block"}
-                            src="/INVIREP-logo.webp" alt="invirep, ИНВИРЕП"
+                            src="/invirep-logo.webp"
+                            alt="invirep"
                             loading={"lazy"}
                         />
                     </a>
@@ -33,7 +36,7 @@ export default function Home() {
                             width={600}
                             className="hidden md:block"
                             src="/Invirep.webp"
-                            alt="invirep, ИНВИРЕП"
+                            alt="инвиреп"
                             loading={"lazy"}
                         />
                         <img
@@ -41,7 +44,7 @@ export default function Home() {
                             width={300}
                             className="block md:hidden"
                             src="/Invirep.webp"
-                            alt="invirep, ИНВИРЕП"
+                            alt="Invirep"
                             loading={"lazy"}
                         />
                         {/*<img*/}
