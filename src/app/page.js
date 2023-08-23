@@ -266,7 +266,7 @@ export default function Home() {
                             Spring Pharm
                         </a>
                         <a href="https://t.me/SpringPharmaceutic" className="flex gap-3 items-center">
-                            <img src="/telegram-icon.png" className="w-[28px] h-[28px]" alt="instagram"/>
+                            <img src="/telegram.webp" className="w-[20px] h-[20px] ml-1" alt="instagram"/>
                             Spring_Pharmaceutic
                         </a>
                         <a href="#" className="flex gap-3 items-center mb-3">
