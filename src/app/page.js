@@ -12,7 +12,7 @@ export default function Home() {
                         className={"h-[40px] md:h-[50px]"}
                         src="/INVIREP-logo.png" alt="invirep, ИНВИРЕП"
                     /></a>
-                    <h3 className="text-[11px] md:text-[18px] md:block font-medium">Tel: +998 90 223 00 41</h3>
+                    <h3 className="text-[11px] md:text-[18px] md:block font-medium">Tel: +998 90 223 00 40</h3>
                 </div>
                 <div className="mt-[50px]">
                     <h2 className="font-semibold text-center text-4xl font-roboto">ИНВИРЕП</h2>
