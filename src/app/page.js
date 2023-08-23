@@ -10,7 +10,7 @@ export default function Home() {
                 <div className="h-[80px] flex items-center justify-between">
                     <a href="#"><img
                         className={"h-[40px] md:h-[50px]"}
-                        src="/INVIREP-logo.png" alt="invirep, ИНВИРЕП"
+                        src="/INVIREP-logo.webp" alt="invirep, ИНВИРЕП"
                     /></a>
                     <h3 className="text-[11px] md:text-[18px] md:block font-medium">Tel: +998 90 223 00 40</h3>
                 </div>
@@ -19,7 +19,7 @@ export default function Home() {
                     <div className="flex justify-center">
                         <img
                             className="h:[50vh] md:h-[60vh]"
-                            src="/Invirep.png"
+                            src="/Invirep.webp"
                             alt="invirep, ИНВИРЕП"/>
                     </div>
                     <h3 className="text-xl md:text-2xl mt-5 text-[#0C54A0] font-semibold font-roboto mb-3">
