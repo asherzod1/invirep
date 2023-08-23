@@ -24,12 +24,32 @@
         <loc>https://www.invirep.uz/Invirep.webp</loc>
         <image:image>
             <image:loc>https://www.invirep.uz/Invirep.webp</image:loc>
+            <image:title>Invirep</image:title>
+            <image:caption>Invirep, инвиреп</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.invirep.uz/Invirep.webp</loc>
+        <image:image>
+            <image:loc>https://www.invirep.uz/Invirep.webp</image:loc>
+            <image:title>инвиреп</image:title>
+            <image:caption>Invirep, инвиреп</image:caption>
         </image:image>
     </url>
     <url>
         <loc>https://www.invirep.uz/invirep-logo.webp</loc>
         <image:image>
             <image:loc>https://www.invirep.uz/invirep-logo.webp</image:loc>
+            <image:title>инвиреп</image:title>
+            <image:caption>Invirep, инвиреп</image:caption>
+        </image:image>
+    </url>
+    <url>
+        <loc>https://www.invirep.uz/invirep-logo.webp</loc>
+        <image:image>
+            <image:loc>https://www.invirep.uz/invirep-logo.webp</image:loc>
+            <image:title>Invirep</image:title>
+            <image:caption>Invirep, инвиреп</image:caption>
         </image:image>
     </url>
 </urlset>
