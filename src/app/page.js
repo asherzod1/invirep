@@ -13,12 +13,14 @@ export default function Home() {
                         width={100}
                         className={"block md:hidden"}
                         src="/INVIREP-logo.webp" alt="invirep, ИНВИРЕП"
+                        loading={"lazy"}
                     />
                         <img
                             width={150}
                             height={100}
                             className={"hidden md:block"}
                             src="/INVIREP-logo.webp" alt="invirep, ИНВИРЕП"
+                            loading={"lazy"}
                         />
                     </a>
                     <h3 className="text-[11px] md:text-[18px] md:block font-medium">Tel: +998 90 223 00 40</h3>
@@ -31,13 +33,17 @@ export default function Home() {
                             width={600}
                             className="hidden md:block"
                             src="/Invirep.webp"
-                            alt="invirep, ИНВИРЕП"/>
+                            alt="invirep, ИНВИРЕП"
+                            loading={"lazy"}
+                        />
                         <img
                             height={300}
                             width={300}
                             className="block md:hidden"
                             src="/Invirep.webp"
-                            alt="invirep, ИНВИРЕП"/>
+                            alt="invirep, ИНВИРЕП"
+                            loading={"lazy"}
+                        />
                         {/*<img*/}
                         {/*    className="h:[50vh] md:h-[60vh]"*/}
                         {/*    src="/Invirep.webp"*/}
@@ -258,19 +264,19 @@ export default function Home() {
                             Тел. : +998 90 223 00 40
                         </strong></div>
                         <a href="https://www.instagram.com/springpharmaceutic/" className="flex gap-3 items-center">
-                            <img src="/Instagram-Logo.wine.svg" className="w-[30px] h-[30px]" alt="instagram"/>
+                            <img src="/Instagram-Logo.wine.svg" loading={"lazy"} className="w-[30px] h-[30px]" alt="instagram"/>
                             @springpharmaceutic
                         </a>
                         <a href="https://www.facebook.com/spring.pharm.3/" className="flex gap-3 items-center">
-                            <img src="/Facebook-f_Logo-Blue-Logo.wine.svg" className="w-[30px] h-[30px]" alt="instagram"/>
+                            <img src="/Facebook-f_Logo-Blue-Logo.wine.svg" loading={"lazy"} className="w-[30px] h-[30px]" alt="instagram"/>
                             Spring Pharm
                         </a>
                         <a href="https://t.me/SpringPharmaceutic" className="flex gap-3 items-center">
-                            <img src="/telegram.webp" className="w-[20px] h-[20px] ml-1" alt="instagram"/>
+                            <img src="/telegram.webp" loading={"lazy"} className="w-[20px] h-[20px] ml-1" alt="instagram"/>
                             Spring_Pharmaceutic
                         </a>
                         <a href="#" className="flex gap-3 items-center mb-3">
-                            <img src="/email-svgrepo-com.svg" className="w-[25px] h-[25px]" alt="instagram"/>
+                            <img src="/email-svgrepo-com.svg" loading={"lazy"} className="w-[25px] h-[25px]" alt="instagram"/>
                             spring_pharmaceutic@gmail.com
                         </a>
                         <div className="mb-5 flex gap-3 flex flex-wrap">
