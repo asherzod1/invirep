@@ -26,7 +26,7 @@ export default function Home() {
                             loading={"lazy"}
                         />
                     </a>
-                    <h3 className="text-[11px] md:text-[18px] md:block font-medium">Tel: +998 90 223 00 40</h3>
+                    <h3 className="text-[11px] md:text-[18px] md:block font-medium">Tel: +998 99 694 23 64</h3>
                 </div>
                 <div className="mt-[50px]">
                     <h2 className="font-semibold text-center text-4xl font-roboto">ИНВИРЕП</h2>
@@ -264,7 +264,7 @@ export default function Home() {
                             <br/>
                             СП  ООО "SPRING PHARMACEUTIC" Республика  Узбекистан , Наманганская область, Касансайский район, Кукимбой, Навбахор МСГ, улица Булак, дом 129.
                             <br/>
-                            Тел. : +998 90 223 00 40
+                            Тел. : +998 99 694 23 64
                         </strong></div>
                         <a href="https://www.instagram.com/springpharmaceutic/" className="flex gap-3 items-center">
                             <img src="/Instagram-Logo.wine.svg" loading={"lazy"} className="w-[30px] h-[30px]" alt="instagram"/>
