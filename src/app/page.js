@@ -9,18 +9,39 @@ export default function Home() {
             <div className="xl:max-w-[1110px] my-0 mx-auto w-[90%]">
                 <div className="h-[80px] flex items-center justify-between">
                     <a href="#"><img
-                        className={"h-[40px] md:h-[50px]"}
+                        height={50}
+                        width={100}
+                        className={"block md:hidden"}
                         src="/INVIREP-logo.webp" alt="invirep, ИНВИРЕП"
-                    /></a>
+                    />
+                        <img
+                            width={150}
+                            height={100}
+                            className={"hidden md:block"}
+                            src="/INVIREP-logo.webp" alt="invirep, ИНВИРЕП"
+                        />
+                    </a>
                     <h3 className="text-[11px] md:text-[18px] md:block font-medium">Tel: +998 90 223 00 40</h3>
                 </div>
                 <div className="mt-[50px]">
                     <h2 className="font-semibold text-center text-4xl font-roboto">ИНВИРЕП</h2>
                     <div className="flex justify-center">
                         <img
-                            className="h:[50vh] md:h-[60vh]"
+                            height={600}
+                            width={600}
+                            className="hidden md:block"
                             src="/Invirep.webp"
                             alt="invirep, ИНВИРЕП"/>
+                        <img
+                            height={300}
+                            width={300}
+                            className="block md:hidden"
+                            src="/Invirep.webp"
+                            alt="invirep, ИНВИРЕП"/>
+                        {/*<img*/}
+                        {/*    className="h:[50vh] md:h-[60vh]"*/}
+                        {/*    src="/Invirep.webp"*/}
+                        {/*    alt="invirep, ИНВИРЕП"/>*/}
                     </div>
                     <h3 className="text-xl md:text-2xl mt-5 text-[#0C54A0] font-semibold font-roboto mb-3">
                         ИНСТРУКЦИЯ ПО МЕДИЦИНСКОМУ ПРИМЕНЕНИЮ
