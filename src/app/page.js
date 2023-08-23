@@ -272,7 +272,7 @@ export default function Home() {
                             Spring Pharm
                         </a>
                         <a href="https://t.me/SpringPharmaceutic" className="flex gap-3 items-center">
-                            <img src="/telegram.webp" loading={"lazy"} className="w-[20px] h-[20px] ml-1" alt="instagram"/>
+                            <img src="/telegram.webp" width={20} height={20} loading={"lazy"} className="w-[20px] h-[20px] ml-1" alt="instagram"/>
                             Spring_Pharmaceutic
                         </a>
                         <a href="#" className="flex gap-3 items-center mb-3">
